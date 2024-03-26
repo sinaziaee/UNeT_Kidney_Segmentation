@@ -15,7 +15,7 @@ def get_current_path(path=None):
     else:
         return os.getcwd()
 
-new_folder = 'healthy_data'
+new_folder = os.path.join(get_current_path(), '..', 'healthy_data')
     
 def make_path(path):
     if not os.path.exists(path):

@@ -17,17 +17,17 @@ The training is on two A6000 GPUS on a parallel mode and took approximately 20 G
 # Phase 1
 
 ## Step 1 (Download Datasets)
-First start by downloading the datasets from [TCIA](https://wiki.cancerimagingarchive.net/display/public/pancreas-ct#225140405a525c7710d147e8bfc6611f18577bb7) for healthy kidneys and [kits19](https://github.com/neheller/kits19) , [kits23](https://github.com/neheller/kits23) for unhealthy datasets.
-
+First start by downloading the datasets from [TCIA](https://wiki.cancerimagingarchive.net/display/public/pancreas-ct#225140405a525c7710d147e8bfc6611f18577bb7) for healthy kidneys and [kits23](https://github.com/neheller/kits23) for unhealthy datasets.
 ## Step 2 (Pre-Process)
-
-## Step 3 (Model Creation)
-
+Run dataset_utils/preprocess_kits.py and dataset_utils/preprocess.py to create the 2d slices of the 3d images for both the healthy and unhealthy datasets. Now healthy_data and unhealthy_data folders are created.
+## Step 3 (Model Architecture)
+The model architecture uses a variation of UNet where the encoder is EfficientNet and the decoder is the same as the UNet architecture. 
 ## Step 4 (Model Training)
-
+To train the model run main_train.py file.
 ## Step 5 (Model Inference)
-
+To perform inference, run inference.py file.
 # How to Run the Project:
 # Phase 2
 
 ## Step 1 (Run MonteCarlo Inference)
+To perform inference with Monte Carlo, run mc_inference.py file. 

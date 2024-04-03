@@ -101,7 +101,7 @@ for (lr_) in params:
                 validloss = dicelossfunc(pred.clone(), y.clone())
                 totalvalidloss += validloss
 
-                validScore = diceScore.forward(pred, y)
+                validScore = diceScore(pred, y)
 
                 totalvaliddice += validScore
                 validstep += 1

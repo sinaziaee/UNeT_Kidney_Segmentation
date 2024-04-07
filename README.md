@@ -35,6 +35,6 @@ To perform inference with Monte Carlo, run mc_inference.py file.
 
 # Results
 
-![Sample of unhealthy Kidney](https://raw.githubusercontent.com/sinaziaee/kidney_segmentation/master/images/kits_segmentation.png)
+![Sample of unhealthy Kidney](https://raw.githubusercontent.com/sinaziaee/kidney_segmentation/master/images/kits_segment.png)
 
 ![Prediction Result](https://raw.githubusercontent.com/sinaziaee/kidney_segmentation/master/images/kits_pred.png)

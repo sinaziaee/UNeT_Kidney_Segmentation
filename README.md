@@ -35,8 +35,6 @@ To perform inference with Monte Carlo, run mc_inference.py file.
 
 # Results
 
-<!-- ![Sample of unhealthy Kidney](https://raw.githubusercontent.com/sinaziaee/kidney_segmentation/master/images/kits_segment.png)
+<img src="images/kits_segment.png" alt="Sample of unhealthy Kidney" width="400" height="300">  <img src="images/kits_pred.png" alt="Prediction Result" width="400" height="300">
 
-![Prediction Result](https://raw.githubusercontent.com/sinaziaee/kidney_segmentation/master/images/kits_pred.png) -->
-
-<img src="images/kits_segment.png" alt="Sample of unhealthy Kidney" width="400" height="300">|<img src="images/kits_pred.png" alt="Prediction Result" width="400" height="300">
+The image on the left is a sample of an unhealthy kidney in kits23 dataset and the image on the right is the prediction of the model with the help of uncertainty maps. The model predicts anomaly on the left kidney as half of the downside of the kidney is not considered as healthy kidney. There are also cavities in the predicted kidney image that indicate the position of the cysts in the kidney.

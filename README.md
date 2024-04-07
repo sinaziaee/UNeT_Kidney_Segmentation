@@ -41,4 +41,4 @@ To perform inference with Monte Carlo, run mc_inference.py file.
 
 ![Sample of unhealthy Kidney](images/kits_segment.png)
 
-![Prediction Result](images/kits_pred.png)
+<img src="images/kits_pred.png" alt="Prediction Result" width="500" height="300">
